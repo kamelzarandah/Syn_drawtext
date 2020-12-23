@@ -8,6 +8,7 @@ How To Use For Your Own Scripts:
 ---------------------------------
 using this script is pretty simple. 
 you call the draw text using this trigger when the player is in an area u want the draw text to appear
+
       TriggerEvent('syn_drawtext:showNotification', { title = Config.draw.jobcenter, message = Config.draw.jobcenter2, icon = Config.draw.jobcenter3 })
 in this example the following are the configs:
 Config.draw = {
